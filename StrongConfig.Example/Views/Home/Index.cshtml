@@ -1,0 +1,23 @@
+﻿@model StrongConfig.Example.Models.Home.ConfigModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StrongConfig Example</title>
+</head>
+    <body>
+        <h1>StrongConfig Example</h1>
+        <ul>
+            <li>Bool Value: @Model.BoolValue</li>
+            <li>DateTime Value: @Model.DateTimeValue</li>
+            <li>Int Value: @Model.IntValue</li>
+            <li>String Value: @Model.StringValue</li>
+        </ul>
+    </body>
+</html>
